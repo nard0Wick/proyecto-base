@@ -25,11 +25,18 @@ class Operaciones:
     def sumar(self):
         self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
 
+
+    
+
+    def modulo(self):
+        self.resultado = "El resultado es: " + str(self.num1) + " + "  + str(self.num2) + " es igual a " + str(self.num1 % self.num2)
+
     def mayorque(self):
         if(self.num1 > self.num2):
             self.resultado = "El numero: " + str(self.num1) + " es mayor que " + str(self.num2)
         else:
             self.resultado = "El numero: " + str(self.num2) + " es mayor que " + str(self.num1)
+
     
     
 
