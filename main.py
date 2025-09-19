@@ -10,6 +10,9 @@ def main():
     op.raiz()
     op.mostrarResultado()
     
+    op.dividir()
+    op.mostrarResultado()
+    
 if __name__ == "__main__":
     main()
     
