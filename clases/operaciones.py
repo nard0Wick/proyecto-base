@@ -26,6 +26,11 @@ class Operaciones:
         self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
     
 
+    def multiplicacion(self):
+        self.resultado = "La multiplicacion de " + str(self.num1) + " * " + str(self.num2) + " es igula a " + str(self.num1 * self.num2)
+    
+
+
     def dividir(self):
         self.resultado = "La división de " + str(self.num1) + " / " + str(self.num2) + " es igual a " + str(self.num1 / self.num2) 
         
@@ -37,6 +42,7 @@ class Operaciones:
 
     def raiz(self):
         self.resultado = "La raiz de " + str(self.num1) + " a la " + str(self.num2) + " es igual a " + str(self.num1**(1/self.num2))
+
 
 
     def mostrarResultado(self):
