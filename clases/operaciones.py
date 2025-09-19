@@ -23,6 +23,9 @@ class Operaciones:
     def sumar(self):
         self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
     
+    def potencia(self):
+        self.resultado = "La potencia de " + str(self.num1) + " elevado a la " + str(self.num2) + " es igual a " + str(self.num1**self.num2)
+    
     def mostrarResultado(self):
         print(self.resultado)
         
