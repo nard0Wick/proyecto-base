@@ -6,6 +6,9 @@ def main():
     op.sumar()
     op.mostrarResultado()
     
+    op.dividir()
+    op.mostrarResultado()
+    
 if __name__ == "__main__":
     main()
     
