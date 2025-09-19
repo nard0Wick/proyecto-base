@@ -5,6 +5,10 @@ def main():
     op.leerNumeros()
     op.sumar()
     op.mostrarResultado()
+
+    op.potencia()
+    op.raiz()
+    op.mostrarResultado()
     
     op.dividir()
     op.mostrarResultado()

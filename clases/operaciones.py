@@ -1,3 +1,5 @@
+import math
+
 class Operaciones:
     def __init__(self):
         self.num1 = 0
@@ -23,9 +25,20 @@ class Operaciones:
     def sumar(self):
         self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
     
+
     def dividir(self):
         self.resultado = "La división de " + str(self.num1) + " / " + str(self.num2) + " es igual a " + str(self.num1 / self.num2) 
         
+
+
+    def potencia(self):
+        self.resultado = "La potencia de " + str(self.num1) + " elevado a la " + str(self.num2) + " es igual a " + str(self.num1**self.num2)
+    
+
+    def raiz(self):
+        self.resultado = "La raiz de " + str(self.num1) + " a la " + str(self.num2) + " es igual a " + str(self.num1**(1/self.num2))
+
+
     def mostrarResultado(self):
         print(self.resultado)
         
