@@ -6,6 +6,10 @@ def main():
     op.sumar()
     op.mostrarResultado()
 
+    op.mayorque()
+    op.mostrarResultado()
+
+
     op.multiplicacion()
     op.mostrarResultado()
 
@@ -16,6 +20,7 @@ def main():
     
     op.dividir()
     op.mostrarResultado()
+
     
 
 if __name__ == "__main__":
