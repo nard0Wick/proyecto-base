@@ -8,7 +8,24 @@ def main():
     op.mostrarResultado()
     op.modulo()
     op.mostrarResultado()
+
+    op.mayorque()
+    op.mostrarResultado()
+
+
+    op.multiplicacion()
+    op.mostrarResultado()
+
+
+    op.potencia()
+    op.raiz()
+    op.mostrarResultado()
     
+    op.dividir()
+    op.mostrarResultado()
+
+    
+
 if __name__ == "__main__":
     main()
     
